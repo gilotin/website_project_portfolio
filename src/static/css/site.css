@@ -1,0 +1,12 @@
+nav {
+    font-size: larger;
+}
+
+p {
+    font-style: italic;
+}
+
+body {
+    background-image: url(/images/background.jpg);
+    background-size: contain;
+}
