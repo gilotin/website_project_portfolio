@@ -1,17 +1,49 @@
-.nav {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-p {
-    font-style: italic;
-}
+@import url(https://fonts.google.com/specimen/Josefin+Sans?preview.size=50);
 
 body {
-    background-image: url(/images/background.jpg);
+    color: rgba(206, 204, 204, 0.795);
+    background-image: url(/images/1675377232245.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
+.nav {
+    display: flex;
+    list-style: none;
+    font-family: sans-serif, "Josefin Sans";
+    font-size: 35px;
+    margin-left: 900px;
+}
+
+.nav-list {
+    display: inline;
+    float: left;
+    padding-right: 30;
+}
+.nav-element {
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    color: darkgray;
+}
+
+/* footer */
+.footer {
+    color: darkgray;
+    position: center;
+}
+/* profile */
+
+span {
+    color: rgb(241, 177, 56);
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+ #pic{
+    float: unset;
+ }
