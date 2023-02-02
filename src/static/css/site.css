@@ -6,12 +6,12 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    font-family: sans-serif, "Josefin Sans";
 }
 
 .nav {
     display: flex;
     list-style: none;
-    font-family: sans-serif, "Josefin Sans";
     font-size: 35px;
     margin-left: 900px;
 }
@@ -30,8 +30,7 @@ body {
 
 /* footer */
 .footer {
-    color: darkgray;
-    position: center;
+    display: flex;
 }
 /* profile */
 
@@ -40,10 +39,21 @@ span {
 }
 h1 {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 50;
+    flex-direction: column;
+    padding: 30;
+    margin-left: 700px;
 }
- #pic{
+#pic {
     float: unset;
- }
+}
+
+#name {
+    font-size: 20en;
+}
+
+#about-me{
+    display: flex;
+}
